@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">    
+
+    <title>Cheak out form</title>
+</head>
+
+<body>
+    <div class="contener-fluid">
+        <div class="row justify-content-center bg-dark pt-2 pb-2">
+            <div class="col-8 text-white">
+                <h1>Cheak Out Form</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center bg-dark pt-5 pb-3">
+            <div class="col-3 text-white">
+                <h3>Billing Address</h3>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"><i class="bi bi-person-fill"></i> Full name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="full name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"><i class="bi bi-envelope-fill"></i> Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" Address>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"><i class="bi bi-house-fill"></i> Address</label>
+                    <input class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Address">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">city</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="city">
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">State</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="ny">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="383225">
+                        </div>
+                    </div>
+                </div>   
+                
+                <div class="form-check text-white">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Shipping Address same as Billing address
+                    </label>
+                  </div>
+                  <button type="button" class="btn btn-secondary mt-3" style="width: 100%;">Cheak Me Out</button>
+            </div>
+            <div class="col-3 text-white">
+                <h3>Payment</h3>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Card Type</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Debit card">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name on Card </label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Patel Mitkumar M">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Credit Card Number</label>
+                    <input type="number" class="form-control" id="" rows="3" placeholder="1234-1234-1234">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Exp Month</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="April">
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Exp. Year</label>
+                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="2018">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">CVV</label>
+                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="383">
+                        </div>
+                    </div>
+                </div>       
+            </div> 
+                <div class="col-2 text-white">
+                    <div class="row">
+                        <div class="col-6">
+                            <h3>cart</h3>
+                            <p class="pt-1">item 1</p>
+                            <p class="pt-1">item 1</p>
+                            <p class="pt-1">item 1</p>
+                            <p class="pt-1">item 1</p>
+                            <hr>
+                            <p class="pt-1">Total</p>
+                        </div>
+                        <div class="col-6">
+                            <p><i class="bi bi-cart-check-fill" style="font-size:15px;"></i>  4</p>
+                            <p class="pt-1">70</p>
+                            <p class="pt-1">40</p>
+                            <p class="pt-1">20</p>
+                            <p class="pt-1">15</p>
+                            <hr>
+                            <p class="pt-1">145</p>
+                        </div>
+                    </div>
+                </div> 
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
